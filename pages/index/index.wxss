@@ -1,0 +1,100 @@
+
+.pickers{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.text-area{
+	display: flex;
+	justify-content: center;
+}
+.create-show {
+	opacity: 1;
+	transform: scale(1) translateY(0);
+}
+.main{
+	margin-top: 60px;
+}
+.inputtext {
+  text-align: center;
+  margin-top: 30px;
+}
+.datepick {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.chemess {
+  font-size: 36rpx;
+  color:cornflowerblue;
+  font-weight: bolder;
+}
+.title {
+  font-size: 36rpx;
+  color:cornflowerblue;
+  font-weight: bolder;
+}
+.creat-button {
+	margin-top: 30px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 80px;
+	border-radius: 50px;
+	font-size: 16px;
+	color: #88d4ec;
+	box-shadow: -2px 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.create-todo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 70px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #deeff5;
+	box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.1), -1px 1px 1px 0 rgba(255, 255, 255) inset;
+}
+.iconhao1 {
+	font-size: 30px;
+	color: #add8e6;
+}
+.create-content {
+	position: absolute;
+	bottom: 95px;
+	transition: all 0.3s;
+	opacity: 0;
+	transform: scale(2) translateY(200%);
+}
+.create-show {
+	opacity: 1;
+	transform: scale(1) translateY(0);
+}
+.create-content-box {
+	margin-left: 75px;
+    align-items:center;
+	height:170px;
+	border-radius: 20px;
+	background: #deeff5;
+	box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.1), -1px 1px 1px 0 rgba(255, 255, 255) inset;
+	z-index: 2;
+}
+.todo-list {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	margin: 15px;
+	color: #0c3854;
+	font-size: 14px;
+	border-radius: 10px;
+	background: #cfebfd;
+	box-shadow: -1px 1px 5px 1px rgba(0, 0, 0, 0.1), -1px 2px 1px 0 rgba(255, 255, 255) inset;
+	overflow: hidden;
+}
